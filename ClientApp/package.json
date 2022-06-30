@@ -1,0 +1,61 @@
+{
+  "name": "levsherbiary",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:ssr": "ng run LevsHerbiary:server:dev",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~8.2.14",
+    "@angular/common": "~8.2.14",
+    "@angular/compiler": "~8.2.14",
+    "@angular/core": "~8.2.14",
+    "@angular/forms": "~8.2.14",
+    "@angular/platform-browser": "~8.2.14",
+    "@angular/platform-browser-dynamic": "~8.2.14",
+    "@angular/platform-server": "~8.2.14",
+    "@angular/router": "~8.2.14",
+    "@ng-bootstrap/ng-bootstrap": "^5.0.0",
+    "@nguniversal/module-map-ngfactory-loader": "~8.2.6",
+    "@types/express-serve-static-core": "^4.17.29",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.23.3",
+    "jquery": "^3.6.0",
+    "ngx-pagination": "^6.0.1",
+    "oidc-client": "^1.11.5",
+    "popper.js": "^1.16.0",
+    "rxjs": "^6.6.3",
+    "zone.js": "^0.9.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.0.3",
+    "@angular/cli": "^8.3.29",
+    "@angular/compiler-cli": "^14.0.3",
+    "@angular/language-service": "^14.0.3",
+    "@types/jasmine": "~4.0.3",
+    "@types/jasminewd2": "~2.0.10",
+    "@types/node": "~18.0.0",
+    "codelyzer": "^6.0.2",
+    "ini": "^3.0.0",
+    "jasmine-core": "~4.2.0",
+    "jasmine-spec-reporter": "~7.0.0",
+    "karma": "^6.4.0",
+    "karma-chrome-launcher": "~3.1.1",
+    "karma-coverage-istanbul-reporter": "~3.0.3",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "^2.0.0",
+    "typescript": "4.7.4"
+  },
+  "optionalDependencies": {
+    "node-sass": "^7.0.1",
+    "protractor": "~7.0.0",
+    "ts-node": "~10.8.1",
+    "tslint": "~5.20.1"
+  }
+}
